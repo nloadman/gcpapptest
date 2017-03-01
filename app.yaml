@@ -1,0 +1,13 @@
+application: testapp
+version: 1
+runtime: php55
+api_version: 1
+
+
+handlers:
+- url: /.*
+  script: HW2.php
+  
+ libraries:
+- name: webapp2
+  version: "2.5.2"
